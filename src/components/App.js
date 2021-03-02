@@ -14,8 +14,8 @@ const App = () => (
       <div className="ph3 pv1 background-gray">
         <Switch>
           <Route exact path="/portfolio" component={HomePage} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/portfolio/resume" component={Resume} />
+          <Route exact path="/portfolio/projects" component={Projects} />
 
         </Switch>
       </div>
