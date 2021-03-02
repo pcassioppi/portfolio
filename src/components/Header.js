@@ -6,7 +6,7 @@ export default function Header(){
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
             
-            <Navbar.Brand className="text-center">Peter Cassioppi</Navbar.Brand>
+            <Navbar.Brand className="justify-content-center">Peter Cassioppi</Navbar.Brand>
             {/* <Link to={"/portfolio"} className="navbar-brand">
                 
                     Home
