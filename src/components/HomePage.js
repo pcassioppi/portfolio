@@ -13,7 +13,6 @@ export default class HomePage extends Component{
     render(){
         return (
             <Container>
-                <Row>
                 {/* <Jumbotron className="text-center">
                         <h1>Portfolio Test</h1>        
                 </Jumbotron> */}
@@ -64,7 +63,6 @@ export default class HomePage extends Component{
                         
                     </Row>
                 </Tab.Container>
-            </Row>
             </Container>
         );
     
