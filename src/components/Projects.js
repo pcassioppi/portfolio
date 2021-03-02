@@ -34,16 +34,13 @@ export default class Projects extends Component{
                                 <Card bg="secondary" text="white">
                                     <Card.Body>
                                         <Card.Header>
-                                            <Card.Title>SongSpots Song Location Tracker</Card.Title>
+                                            <Card.Title>Last.FM Spotify Data Scraper</Card.Title>
                                             <Card.Subtitle>Personal Project</Card.Subtitle>
                                         </Card.Header>
-                                        <Card.Text>     - Full stack web application using Django, GraphQL, AWS RDS Postgres, React.js, and Google Maps API that allows users to 
-                                            log songs and the locations they associate them with</Card.Text>
-                                        <Card.Text>     - Developed a GraphQL API using Django and JWT user authentication to manipulate and query users’ individual data from Postgres 
-                                            database hosted on AWS Cloud Relational Database Service</Card.Text>
-                                        <Card.Text>     - Utilized React.js and URQL to query and manipulate data from the GraphQL API for the frontend, allowing users to see and add 
-                                            data using a map that consumes the Google Maps API and is displayed in a user friendly React-Bootstrap UI</Card.Text>
-                                        <Card.Footer  href="https://github.com/pcassioppi/SongSpots">Github</Card.Footer>
+                                        <Card.Text>     - Full stack web application using Django REST framework, MongoDB, and React.js</Card.Text>
+                                        <Card.Text>     - Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</Card.Text>
+                                        <Card.Text>     - Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</Card.Text>
+                                        <Card.Footer  href="https://github.com/pcassioppi/TopMusic">Github</Card.Footer>
                                     </Card.Body>
                                 </Card>
                                 </Tab.Content>
