@@ -12,9 +12,9 @@ export default class Projects extends Component{
                 </Jumbotron>
                 <Card >
                     <Card.Body>
-                        <Tabs defaultActiveKey="home" id="uncontrolled-tab-example">
+                        <Tabs defaultActiveKey="home" id="controlled-tab-example">
                             <Tab eventKey="home" title="Main">
-                                <Tab.Content>
+                                
                                 <Card bg="secondary" text="white">
                                     <Card.Body>
                                         <Card.Header>SongSpots Song Location Tracker | Personal Project</Card.Header>
@@ -43,7 +43,7 @@ export default class Projects extends Component{
                                         <Card.Footer  href="https://github.com/pcassioppi/TopMusic">Github</Card.Footer>
                                     </Card.Body>
                                 </Card>
-                                </Tab.Content>
+                                
                             </Tab>
                             <Tab eventKey="SongSpots" title="SongSpots">
                                 <div>Test2</div>
