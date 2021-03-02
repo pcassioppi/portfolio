@@ -12,9 +12,6 @@ export default class Projects extends Component{
             <Container>
                 <Jumbotron className="text-center">
                         <h1>Portfolio Test - PROJECTS</h1>
-                        
-                        
-                        
                 </Jumbotron>
             
             </Container>
