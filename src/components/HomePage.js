@@ -29,7 +29,7 @@ export default class HomePage extends Component{
                             <Nav.Item>
                             <Nav.Link eventKey="second">Projects</Nav.Link>
                             </Nav.Item>
-                            <NavDropdown title="Projects" id="collasible-nav-dropdown">
+                            <NavDropdown title="Projects" id="collasible-nav-dropdown" drop='right'>
                                 {/* should link to samee page, but different spots */}
                                 <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
                                 <NavDropdown.Divider />
