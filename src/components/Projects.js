@@ -13,7 +13,7 @@ export default class Projects extends Component{
                 <Card >
                     <Card.Body>
                         <Tabs defaultActiveKey="home" id="uncontrolled-tab-example">
-                            <Tab eventKey="home" title="Main"  className="p-6">
+                            <Tab eventKey="home" title="Main"  className="p-0">
                                 {/* <Container> */}
                                 <Card bg="secondary" text="white">
                                     <Card.Body>
