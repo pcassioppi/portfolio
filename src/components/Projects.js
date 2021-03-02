@@ -25,9 +25,7 @@ export default class Projects extends Component{
                                         <Card.Text>     - Utilized React.js and URQL to query and manipulate data from the GraphQL API for the frontend, allowing users to see and add 
                                             data using a map that consumes the Google Maps API and is displayed in a user friendly React-Bootstrap UI</Card.Text>
                                         <Card.Footer>
-                                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30" alt=''/>
-                                            <Card.Link href="https://github.com/pcassioppi/SongSpots">Github
-                                            </Card.Link>
+                                            <Button href="https://github.com/pcassioppi/TopMusic" variant="light"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="30" height="30" alt=''/></Button>
                                         </Card.Footer>
                                     </Card.Body>
                                 </Card>
