@@ -24,7 +24,8 @@ export default class Projects extends Component{
                                             database hosted on AWS Cloud Relational Database Service</Card.Text>
                                         <Card.Text>     - Utilized React.js and URQL to query and manipulate data from the GraphQL API for the frontend, allowing users to see and add 
                                             data using a map that consumes the Google Maps API and is displayed in a user friendly React-Bootstrap UI</Card.Text>
-                                        <Card.Footer bg="light">
+                                        <Card.Footer>
+                                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30" alt=''/>
                                             <Card.Link href="https://github.com/pcassioppi/SongSpots">Github
                                             </Card.Link>
                                         </Card.Footer>
