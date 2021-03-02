@@ -49,8 +49,13 @@ export default class Projects extends Component{
                             </Tab>
                             <Tab eventKey="SongSpots" title="SongSpots">
                                 <br />
-                                <h1>SongSpots: Song Location Tracker</h1>
-                                <h2>Technologies used: Python, JavaScript, Django, React.js, GraphQL (Graphene & URQL), Postgres, JWT Authentication, AWS RDS, Google Maps API</h2>
+                                <Card>
+                                    <Card.Body>
+                                        <Card.Header>
+                                            <Card.Title>SongSpots: Song Location Tracker</Card.Title>
+                                            <Card.Subtitle>Technologies used: Python, JavaScript, Django, React.js, GraphQL (Graphene & URQL), Postgres, JWT Authentication, AWS RDS, Google Maps API</Card.Subtitle>
+                                        </Card.Header>
+                                        <Card.Text>
                                 <br />
                                 <h3>Why?</h3>
                                 <div>
@@ -69,6 +74,9 @@ export default class Projects extends Component{
                                 the memory is from, and a description of the memory. The information is then sent to the database, and they can see their information displayed either by refreshing the page, or by navigating to their page of
                                  existing songs. The songs are displayed as points on the map, and the user can hover over them to read their details. The users songs are also displayed in a list (without coordinates) on the side of the page.
                                 </div>
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
                             </Tab>
                             <Tab eventKey="TopMusic" title="TopMusic">
                                 <div>Test3</div>
