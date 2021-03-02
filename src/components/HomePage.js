@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container, Jumbotron, Col, Row, Tab, Nav} from 'react-bootstrap';
+import {Card, Container, Jumbotron, Col, Row, Tab, Nav, NavDropdown} from 'react-bootstrap';
 import '../App.css'
 import Resume from './Resume'
 import Projects from './Projects'
@@ -26,6 +26,13 @@ export default class HomePage extends Component{
                             <Nav.Item>
                             <Nav.Link eventKey="second">Projects</Nav.Link>
                             </Nav.Item>
+                            <NavDropdown title="Use this to nav to different projects" id="collasible-nav-dropdown">
+                                {/* should link to samee page, but different spots */}
+                                <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="#action/3.1">SongSpots</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.2">TopMusic</NavDropdown.Item>
+                            </NavDropdown>
                         </Nav>
                         </Card>
                         </Col>
