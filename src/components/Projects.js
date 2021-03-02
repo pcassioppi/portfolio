@@ -15,13 +15,13 @@ export default class Projects extends Component{
                         <div>If you want to see more about a certain project, you can click their corresponding tabs below.</div>
                 </Jumbotron>
                 <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-                    <Tab eventKey="home" title="Home">
+                    <Tab eventKey="home" title="Main">
                         <div>Test1</div>
                     </Tab>
-                    <Tab eventKey="profile" title="SongSpots">
+                    <Tab eventKey="SongSpots" title="SongSpots">
                         <div>Test2</div>
                     </Tab>
-                    <Tab eventKey="contact" title="TopMusic">
+                    <Tab eventKey="TopMusic" title="TopMusic">
                         <div>Test3</div>
                     </Tab>
                 </Tabs>

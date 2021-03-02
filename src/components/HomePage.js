@@ -20,7 +20,7 @@ export default class HomePage extends Component{
                 <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
-                        <Card border="primary" variant="dark">
+                        <Card border="primary">
                             <Card.Header> Menu </Card.Header>
                             <Card.Body>
                         <Nav variant="pills" className="flex-column">
