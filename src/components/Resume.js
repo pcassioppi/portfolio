@@ -13,7 +13,7 @@ export default class Resume extends Component{
                 <Jumbotron className="text-center">
                     {/* will want to reduce the size of the resume image eventually */}
                         <Card bg="secondary">
-                        <Card.Header>Resume</Card.Header>
+                            <Card.Header>Resume</Card.Header>
                             <Card.Img variant="top" src="https://raw.githubusercontent.com/pcassioppi/pages_files/gh-pages/resume/ResumeJPEG.jpg" fluid/>
                         </Card>
                         
