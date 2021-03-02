@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 export default function Header(){
     return (
-        <Navbar variant="dark" >
+        <Navbar variant="dark" bg='dark'>
             
             <Link to={"/portfolio"} className="navbar-brand">
                 
