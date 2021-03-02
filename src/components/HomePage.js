@@ -15,18 +15,18 @@ export default class HomePage extends Component{
                 <Jumbotron className="text-center">
                         <h1>Portfolio Test</h1>        
                 </Jumbotron>
-                <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
                         <Card>
-                        <Nav variant="pills" className="flex-column">
+                        <Nav variant="tabs" className="flex-column">
                             <Nav.Item>
                             <Nav.Link eventKey="first">Resume</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                             <Nav.Link eventKey="second">Projects</Nav.Link>
                             </Nav.Item>
-                            <NavDropdown title="Use this to nav to different projects" id="collasible-nav-dropdown">
+                            <NavDropdown title="Projects" id="collasible-nav-dropdown">
                                 {/* should link to samee page, but different spots */}
                                 <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
                                 <NavDropdown.Divider />
