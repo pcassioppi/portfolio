@@ -13,9 +13,9 @@ export default class HomePage extends Component{
     render(){
         return (
             <Container>
-                {/* <Jumbotron className="text-center">
-                        <h1>Portfolio Test</h1>        
-                </Jumbotron> */}
+                <Jumbotron className="text-center">
+                        <h1>Welcome to My Website!</h1>        
+                </Jumbotron>
                 <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
