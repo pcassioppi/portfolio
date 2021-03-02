@@ -30,6 +30,7 @@ export default class Projects extends Component{
                                         </Card.Footer>
                                     </Card.Body>
                                 </Card>
+                                <br />
                                 <Card bg="secondary" text="white">
                                     <Card.Body>
                                         <Card.Title>SongSpots Song Location Tracker</Card.Title>
