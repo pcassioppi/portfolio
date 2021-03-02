@@ -19,7 +19,8 @@ export default class HomePage extends Component{
                     <Row>
                         <Col sm={3}>
                         <Card>
-                        <Nav variant="tabs" className="flex-column">
+                            <Card.Body>
+                        <Nav variant="pills" className="flex-column">
                             <Nav.Item>
                             <Nav.Link eventKey="first">Resume</Nav.Link>
                             </Nav.Item>
@@ -33,7 +34,11 @@ export default class HomePage extends Component{
                                 <NavDropdown.Item href="#action/3.1">SongSpots</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">TopMusic</NavDropdown.Item>
                             </NavDropdown>
+                            <Nav.Item>
+                            <Nav.Link eventKey="third">Full Resume</Nav.Link>
+                            </Nav.Item>
                         </Nav>
+                        </Card.Body>
                         </Card>
                         </Col>
                         <Col sm={9}>
@@ -44,6 +49,9 @@ export default class HomePage extends Component{
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
                             <Projects/>
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="third">
+                            <Resume/>
                             </Tab.Pane>
                         </Tab.Content>
                         </Card>
