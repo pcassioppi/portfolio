@@ -15,7 +15,6 @@ export default class HomePage extends Component{
                 <Jumbotron className="text-center">
                         <h1>Portfolio Test</h1>        
                 </Jumbotron>
-                <Card>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
@@ -45,7 +44,6 @@ export default class HomePage extends Component{
                         
                     </Row>
                 </Tab.Container>
-                </Card>
             </Container>
         );
     
