@@ -12,7 +12,7 @@ export default class HomePage extends Component{
 
     render(){
         return (
-            <Container className="p-0">
+            <Container className="p-5">
                 <Jumbotron className="text-center">
                         <h1>Welcome to My Website!</h1>
                         <div>~please enjoy your stay~</div>        
