@@ -15,9 +15,11 @@ export default class Projects extends Component{
                         <Tabs defaultActiveKey="home" id="controlled-tab-example">
                             <Tab eventKey="home" title="Main">
                                 <br />
-                                <Card>
+                                <Card bg="secondary" text="white">
                                     <Card.Body>
-                                        <Card.Header>SongSpots Song Location Tracker | Personal Project</Card.Header>
+                                        <Card.Header>
+                                            <Card.Title>SongSpots Song Location Tracker</Card.Title>
+                                        </Card.Header>
                                         <Card.Text>     - Full stack web application that uses Django, GraphQL, AWS RDS Postgres, React.js, and Google Maps API to allow users to 
                                             log songs and the locations they associate them with</Card.Text>
                                         <Card.Text>     - Developed a GraphQL API using Django and JWT user authentication to manipulate and query users’ individual data from Postgres 
