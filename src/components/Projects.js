@@ -15,7 +15,7 @@ export default class Projects extends Component{
                         <Tabs defaultActiveKey="home" id="controlled-tab-example">
                             <Tab eventKey="home" title="Main">
                                 <br />
-                                <Card bg="secondary" text="white">
+                                <Card>
                                     <Card.Body>
                                         <Card.Header>
                                             <Card.Title>SongSpots Song Location Tracker</Card.Title>
@@ -32,7 +32,7 @@ export default class Projects extends Component{
                                     </Card.Body>
                                 </Card>
                                 <br />
-                                <Card bg="secondary" text="white">
+                                <Card>
                                     <Card.Body>
                                         <Card.Header>
                                             <Card.Title>Last.FM Spotify Data Scraper</Card.Title>
