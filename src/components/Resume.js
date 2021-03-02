@@ -10,9 +10,9 @@ export default class Resume extends Component{
         return (
             <Container>
                 <Jumbotron className="text-center">
-                        <h1>Portfolio Test - RESUME</h1>
-                        <Image src="https://raw.githubusercontent.com/pcassioppi/pages_files/gh-pages/resume/ResumeJPEG.jpg" fluid/>
-                        
+                        <Card>
+                            <Image src="https://raw.githubusercontent.com/pcassioppi/pages_files/gh-pages/resume/ResumeJPEG.jpg" fluid/>
+                        </Card>
                         
                 </Jumbotron>
             
