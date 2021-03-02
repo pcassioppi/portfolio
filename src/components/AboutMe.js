@@ -3,10 +3,6 @@ import {Card, Container, Jumbotron, Col} from 'react-bootstrap';
 import '../App.css'
 
 export default class AboutMe extends Component{
-
-    
-    
-
     render(){
         return (
             <Container bg="secondary">

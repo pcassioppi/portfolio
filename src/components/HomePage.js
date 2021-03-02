@@ -6,10 +6,6 @@ import Projects from './Projects'
 import AboutMe from './AboutMe'
 
 export default class HomePage extends Component{
-
-    
-    
-
     render(){
         return (
             <Container className="p-4">
