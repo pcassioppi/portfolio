@@ -3,6 +3,7 @@ import {Card, Container, Jumbotron, Col, Row, Tab, Nav, NavDropdown} from 'react
 import '../App.css'
 import Resume from './Resume'
 import Projects from './Projects'
+import AboutMe from './AboutMe'
 
 export default class HomePage extends Component{
 
@@ -12,17 +13,18 @@ export default class HomePage extends Component{
     render(){
         return (
             <Container>
-                <Jumbotron className="text-center">
+                {/* <Jumbotron className="text-center">
                         <h1>Portfolio Test</h1>        
-                </Jumbotron>
+                </Jumbotron> */}
                 <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
                         <Card>
+                            <Card.Header> Menu </Card.Header>
                             <Card.Body>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
-                            <Nav.Link eventKey="first">Resume</Nav.Link>
+                            <Nav.Link eventKey="first">About Me</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                             <Nav.Link eventKey="second">Projects</Nav.Link>
