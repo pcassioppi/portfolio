@@ -13,6 +13,7 @@ export default class HomePage extends Component{
     render(){
         return (
             <Container>
+                <Row>
                 <Jumbotron className="text-center">
                         <h1>Portfolio Test</h1>        
                 </Jumbotron>
@@ -48,7 +49,7 @@ export default class HomePage extends Component{
                             <Card.Body>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
-                                    <Resume />
+                                    <AboutMe />
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="second">
                                     <Projects/>
@@ -63,6 +64,7 @@ export default class HomePage extends Component{
                         
                     </Row>
                 </Tab.Container>
+                </Row>
             </Container>
         );
     
