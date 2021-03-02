@@ -19,10 +19,10 @@ export default class Projects extends Component{
                         <div>Test1</div>
                     </Tab>
                     <Tab eventKey="profile" title="SongSpots">
-                        <div>Test1</div>
+                        <div>Test2</div>
                     </Tab>
                     <Tab eventKey="contact" title="TopMusic">
-                        <div>Test1</div>
+                        <div>Test3</div>
                     </Tab>
                 </Tabs>
             
