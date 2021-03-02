@@ -5,7 +5,7 @@ import Header from './Header'
 import HomePage from './HomePage'
 import Resume from './Resume'
 import Projects from './Projects'
-import './App.css';
+// import './App.css';
 
 const App = () => (
   <div className="center w85">
