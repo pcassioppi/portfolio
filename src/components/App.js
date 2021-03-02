@@ -10,7 +10,7 @@ import Projects from './Projects'
 const App = () => (
   <div className="center w85">
     <Router>
-      <Header />
+      {/* <Header /> */}
       <div className="ph3 pv1 background-gray">
         <Switch>
           <Route exact path="/portfolio" component={HomePage} />

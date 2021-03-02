@@ -7,7 +7,7 @@ export default function Header(){
         <Navbar bg="dark" variant="dark" sticky="top">
             
             <Navbar.Brand className="justify-content-center">Peter Cassioppi</Navbar.Brand>
-            {/* <Link to={"/portfolio"} className="navbar-brand">
+            <Link to={"/portfolio"} className="navbar-brand">
                 
                     Home
 
@@ -23,7 +23,7 @@ export default function Header(){
                     <NavDropdown.Item href="#action/3.2">TopMusic</NavDropdown.Item>
                 </NavDropdown>
                 <Link to={"/resume"} replace className="nav-link">Full Resume</Link>
-            </Nav> */}
+            </Nav>
             
         </Navbar>
     )
