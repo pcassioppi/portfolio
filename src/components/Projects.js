@@ -54,10 +54,11 @@ export default class Projects extends Component{
                                         <Card.Header>
                                             <Card.Title>SongSpots: Song Location Tracker</Card.Title>
                                             <Card.Subtitle>Technologies used: Python, JavaScript, Django, React.js, GraphQL (Graphene & URQL), Postgres, JWT Authentication, AWS RDS, Google Maps API</Card.Subtitle>
+                                            <Card.Link href="https://github.com/pcassioppi/SongSpots">Github</Card.Link>
                                         </Card.Header>
                                         <Card.Text>
                                 <br />
-                                <h3>Why?</h3>
+                                <h4>Why?</h4>
                                 <div>
                                     This Web app was something I built because I wished something like it existed. I love listening to music, and when I listen to some songs, they take me back to a certain memory from my life. These memories
                                      are associated with the place I was in when they happened, so I wanted to be able to pinpoint the exact (or rough) location I was at when I heard a certain song, and I wanted to be able to describe the
@@ -68,7 +69,7 @@ export default class Projects extends Component{
                                 updating it with different features over time.
                                 </div>
                                 <br/>
-                                <h3>Overview</h3>
+                                <h4>Overview</h4>
                                 <div>
                                 The application allows a user to create a profile and login. After that, they can add songs to their list, by clicking the location on the Google Maps interface and entering the songs title, artist, the date 
                                 the memory is from, and a description of the memory. The information is then sent to the database, and they can see their information displayed either by refreshing the page, or by navigating to their page of
