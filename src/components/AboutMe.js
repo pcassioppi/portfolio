@@ -9,7 +9,7 @@ export default class AboutMe extends Component{
 
     render(){
         return (
-            <Container>
+            <Container bg="secondary">
                 <Jumbotron className="text-center">
                         <h1>Portfolio Test - About Me</h1>
                 </Jumbotron>

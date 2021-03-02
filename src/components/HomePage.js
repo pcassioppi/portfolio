@@ -13,14 +13,14 @@ export default class HomePage extends Component{
     render(){
         return (
             <Container className="p-4">
-                <Jumbotron className="text-center">
+                {/* <Jumbotron className="text-center">
                         <h1>Welcome to My Website!</h1>
                         <div>~please enjoy your stay~</div>        
-                </Jumbotron>
+                </Jumbotron> */}
                 <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
-                        <Card>
+                        <Card border="primary" bg="dark">
                             <Card.Header> Menu </Card.Header>
                             <Card.Body>
                         <Nav variant="pills" className="flex-column">
@@ -45,7 +45,7 @@ export default class HomePage extends Component{
                         </Card>
                         </Col>
                         <Col sm={9}>
-                        <Card>
+                        <Card bg="dark">
                             <Card.Body>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
