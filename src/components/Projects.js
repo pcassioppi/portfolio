@@ -48,7 +48,7 @@ export default class Projects extends Component{
                                 
                             </Tab>
                             <Tab eventKey="SongSpots" title="SongSpots">
-                                
+                                <br />
                                 <h1>SongSpots: Song Location Tracker</h1>
                                 <h2>Technologies used: Python, JavaScript, Django, React.js, GraphQL (Graphene & URQL), Postgres, JWT Authentication, AWS RDS, Google Maps API</h2>
                                 <br />
@@ -62,6 +62,7 @@ export default class Projects extends Component{
                                 This project also helped me bring together new technologies that I have been teaching myself, and gave me great hands on experience with them. I plan to make this my more "long-term" project, so I will be 
                                 updating it with different features over time.
                                 </div>
+                                <br/>
                                 <h3>Overview</h3>
                                 <div>
                                 The application allows a user to create a profile and login. After that, they can add songs to their list, by clicking the location on the Google Maps interface and entering the songs title, artist, the date 
