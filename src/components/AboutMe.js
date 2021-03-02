@@ -11,7 +11,7 @@ export default class AboutMe extends Component{
         return (
             <Container bg="secondary">
                 <Jumbotron className="text-center">
-                        <h1>Portfolio Test - About Me</h1>
+                        <h1>About Me</h1>
                 </Jumbotron>
             
             </Container>
