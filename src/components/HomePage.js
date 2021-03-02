@@ -33,7 +33,7 @@ export default class HomePage extends Component{
                                 {/* should link to samee page, but different spots */}
                                 <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.1">SongSpots</NavDropdown.Item>
+                                <NavDropdown.Item eventKey="third">SongSpots</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">TopMusic</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Item>
