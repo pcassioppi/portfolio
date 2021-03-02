@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container, Jumbotron, Col, Tabs, Tab} from 'react-bootstrap';
+import {Card, Container, Jumbotron, Col, Tabs, Tab, Button} from 'react-bootstrap';
 import '../App.css'
 
 export default class Projects extends Component{
@@ -36,12 +36,14 @@ export default class Projects extends Component{
                                     <Card.Body>
                                         <Card.Header>
                                             <Card.Title>Last.FM Spotify Data Scraper</Card.Title>
-                                            <Card.Subtitle>Personal Project</Card.Subtitle>
+                                        
                                         </Card.Header>
                                         <Card.Text>     - Full stack web application using Django REST framework, MongoDB, and React.js</Card.Text>
                                         <Card.Text>     - Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</Card.Text>
                                         <Card.Text>     - Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</Card.Text>
-                                        <Card.Footer  href="https://github.com/pcassioppi/TopMusic">Github</Card.Footer>
+                                        <Card.Footer> Github
+                                            <Button href="https://github.com/pcassioppi/TopMusic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQia91qDZkDVvGkgzEjFXnNJxKJlAv-LGL6LA&usqp=CAU" width="30" height="30" alt=''/></Button>
+                                        </Card.Footer>
                                     </Card.Body>
                                 </Card>
                                 
