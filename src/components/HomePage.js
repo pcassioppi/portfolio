@@ -14,7 +14,8 @@ export default class HomePage extends Component{
         return (
             <Container>
                 <Jumbotron className="text-center">
-                        <h1>Welcome to My Website!</h1>        
+                        <h1>Welcome to My Website!</h1>
+                        <div>~please enjoy your stay~</div>        
                 </Jumbotron>
                 <Tab.Container defaultActiveKey="first">
                     <Row>
