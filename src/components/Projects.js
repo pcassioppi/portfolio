@@ -14,7 +14,7 @@ export default class Projects extends Component{
                     <Card.Body>
                         <Tabs defaultActiveKey="home" id="controlled-tab-example">
                             <Tab eventKey="home" title="Main">
-                                
+                                <br />
                                 <Card bg="secondary" text="white">
                                     <Card.Body>
                                         <Card.Header>SongSpots Song Location Tracker | Personal Project</Card.Header>
