@@ -13,9 +13,10 @@ export default class HomePage extends Component{
     render(){
         return (
             <Container>
-                <Jumbotron className="text-center">
+                <Row>
+                {/* <Jumbotron className="text-center">
                         <h1>Portfolio Test</h1>        
-                </Jumbotron>
+                </Jumbotron> */}
                 <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
@@ -63,6 +64,7 @@ export default class HomePage extends Component{
                         
                     </Row>
                 </Tab.Container>
+            </Row>
             </Container>
         );
     
