@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Card, Container, Jumbotron, Image, Col} from 'react-bootstrap';
+import '../App.css'
 
 export default class Resume extends Component{
 
