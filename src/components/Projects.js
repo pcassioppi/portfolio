@@ -13,10 +13,8 @@ export default class Projects extends Component{
                 <Card >
                     <Card.Body>
                         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-                            <Tab eventKey="home" title="Main">
-                                
-                            </Tab>
-                            <Tab eventKey="SongSpots" title="SongSpots">
+                            <Tab eventKey="home" title="Main"  className="p-4">
+                                {/* <Container> */}
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>SongSpots Song Location Tracker | Personal Project</Card.Title>
@@ -29,6 +27,10 @@ export default class Projects extends Component{
                                         <Card.Footer className="text-muted">https://github.com/pcassioppi/SongSpots</Card.Footer>
                                     </Card.Body>
                                 </Card>
+                                {/* </Container> */}
+                            </Tab>
+                            <Tab eventKey="SongSpots" title="SongSpots">
+                                <div>Test2</div>
                             </Tab>
                             <Tab eventKey="TopMusic" title="TopMusic">
                                 <div>Test3</div>
