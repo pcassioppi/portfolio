@@ -13,7 +13,7 @@ const App = () => (
       <Header />
       <div className="ph3 pv1 background-gray">
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/portfolio" component={HomePage} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/projects" component={Projects} />
 
