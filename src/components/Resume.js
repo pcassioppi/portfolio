@@ -11,7 +11,7 @@ export default class Resume extends Component{
             <Container>
                 <Jumbotron className="text-center">
                         <h1>Portfolio Test - RESUME</h1>
-                        <Image src="https://raw.githubusercontent.com/pcassioppi/pages_files/gh-pages/resume/ResumeJPEG.jpg"/>
+                        <Image src="https://raw.githubusercontent.com/pcassioppi/pages_files/gh-pages/resume/ResumeJPEG.jpg" fluid/>
                         
                         
                 </Jumbotron>
