@@ -74,7 +74,7 @@ export default class Projects extends Component{
                                         {/* <Card.Text> */}
                                 <br />
                                 <ListGroup className="list-group-flush">
-                                    <ListGroupItem>
+                                    <ListGroupItem variant="secondary">
                                     
                                 <h4>Why?</h4>
                                 <div>
@@ -88,7 +88,7 @@ export default class Projects extends Component{
                                 </div>
                                 {/* <br/> */}
                                 </ListGroupItem>
-                                <ListGroupItem>
+                                <ListGroupItem variant="secondary">
                                 <h4>Overview</h4>
                                 <div>
                                 The application allows a user to create a profile and login. After that, they can add songs to their list, by clicking the location on the Google Maps interface and entering the songs title, artist, the date 
@@ -98,7 +98,7 @@ export default class Projects extends Component{
 
                                 {/* <br/> */}
                                 </ListGroupItem>
-                                <ListGroupItem>
+                                <ListGroupItem variant="secondary">
                                 <h4>The Deets (Technical Details)</h4>
                                 <div>
                                 The app was made using an AWS RDS Postgres database instance that was made accessible through a Django API using GraphQL to query the data. The frontend was made using React to display the queried data, as
