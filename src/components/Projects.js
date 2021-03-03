@@ -74,7 +74,7 @@ export default class Projects extends Component{
                                         {/* <Card.Text> */}
                                 <br />
                                 <ListGroup className="list-group-flush">
-                                    <ListGroupItem variant="secondary">
+                                    <ListGroupItem>
                                     
                                 <h4>Why?</h4>
                                 <div>
@@ -88,7 +88,7 @@ export default class Projects extends Component{
                                 </div>
                                 {/* <br/> */}
                                 </ListGroupItem>
-                                <ListGroupItem variant="secondary">
+                                <ListGroupItem>
                                 <h4>Overview</h4>
                                 <div>
                                 The application allows a user to create a profile and login. After that, they can add songs to their list, by clicking the location on the Google Maps interface and entering the songs title, artist, the date 
@@ -98,7 +98,7 @@ export default class Projects extends Component{
 
                                 {/* <br/> */}
                                 </ListGroupItem>
-                                <ListGroupItem variant="secondary">
+                                <ListGroupItem>
                                 <h4>The Deets (Technical Details)</h4>
                                 <div>
                                 The app was made using an AWS RDS Postgres database instance that was made accessible through a Django API using GraphQL to query the data. The frontend was made using React to display the queried data, as
@@ -106,7 +106,7 @@ export default class Projects extends Component{
                                 </div>
 
                                 </ListGroupItem>
-                                <ListGroupItem>
+                                <ListGroupItem variant="secondary">
                                 <h5>Database: AWS RDS PostgreSQL</h5>
                                 <div>
                                 I chose to use a relational database for this program because there was no need for a document based system. The data is pretty uniform, as all songs will have mostly the same info, so they could all stick to
@@ -116,7 +116,7 @@ export default class Projects extends Component{
                                 </div>
 
                                 </ListGroupItem>
-                                <ListGroupItem>
+                                <ListGroupItem variant="secondary">
                                 <h5>Backend: Django, GraphQL, JWT Authentication</h5>
                                 <div>
                                 Since I've already made a couple of REST APIs in my programming days (Django/Spring Boot), I wanted to expand my knowledge, and see what other type of APIs were out there. This naturally led me to GraphQL, 
@@ -131,7 +131,7 @@ export default class Projects extends Component{
                                 </div>
 
                                 </ListGroupItem>
-                                <ListGroupItem>
+                                <ListGroupItem variant="secondary">
                                 <h5>Frontend: React, urql, JWT Authentication, Google Maps API</h5>
                                 <div>
                                 For the fronted of the application I chose to use React, since it offers a great way to create a dynamic webpage with multiple parts. I also have experience with it, so it made it easier to work with and
