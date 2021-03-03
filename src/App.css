@@ -2,3 +2,20 @@ body {
   /* background-color: rgb(184, 184, 184); */
   background-image: url("https://wallpaperaccess.com/full/1567665.png");
       opacity:1}
+
+/* Inactive tab */
+.tabClass ul > li > a {
+  background-color: white;
+  color: red;
+}
+.tabClass ul > li > a:hover {
+  background-color: pink;
+}
+
+/* Active tab */
+.tabClass ul > li.active > a,
+.tabClass ul > li.active > a:hover,
+.tabClass ul > li.active > a:focus {
+  background-color: red;
+  color: white;
+}
