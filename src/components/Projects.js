@@ -71,8 +71,11 @@ export default class Projects extends Component{
                                             <br/>
                                             <Card.Link href="https://github.com/pcassioppi/SongSpots"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Card.Link>
                                         </Card.Header>
-                                        <Card.Text>
+                                        {/* <Card.Text> */}
                                 <br />
+                                <ListGroup className="list-group-flush">
+                                    <ListGroupItem>
+                                    
                                 <h4>Why?</h4>
                                 <div>
                                     This Web app was something I built because I wished something like it existed. I love listening to music, and when I listen to some songs, they take me back to a certain memory from my life. These memories
@@ -83,7 +86,9 @@ export default class Projects extends Component{
                                 This project also helped me bring together new technologies that I have been teaching myself, and gave me great hands on experience with them. I plan to make this my more "long-term" project, so I will be 
                                 updating it with different features over time.
                                 </div>
-                                <br/>
+                                {/* <br/> */}
+                                </ListGroupItem>
+                                <ListGroupItem>
                                 <h4>Overview</h4>
                                 <div>
                                 The application allows a user to create a profile and login. After that, they can add songs to their list, by clicking the location on the Google Maps interface and entering the songs title, artist, the date 
@@ -91,14 +96,17 @@ export default class Projects extends Component{
                                  existing songs. The songs are displayed as points on the map, and the user can hover over them to read their details. The users songs are also displayed in a list (without coordinates) on the side of the page.
                                 </div>
 
-                                <br/>
+                                {/* <br/> */}
+                                </ListGroupItem>
+                                <ListGroupItem>
                                 <h4>The Deets (Technical Details)</h4>
                                 <div>
                                 The app was made using an AWS RDS Postgres database instance that was made accessible through a Django API using GraphQL to query the data. The frontend was made using React to display the queried data, as
                                  well as display the Google Maps API component. The application security was done using Django/GraphQL JWT authentication.
                                 </div>
 
-                                <br/>
+                                </ListGroupItem>
+                                <ListGroupItem>
                                 <h5>Database: AWS RDS PostgreSQL</h5>
                                 <div>
                                 I chose to use a relational database for this program because there was no need for a document based system. The data is pretty uniform, as all songs will have mostly the same info, so they could all stick to
@@ -107,7 +115,8 @@ export default class Projects extends Component{
                                   Having the database already on AWS also makes it easier to host the app online in the future.
                                 </div>
 
-                                <br/>
+                                </ListGroupItem>
+                                <ListGroupItem>
                                 <h5>Backend: Django, GraphQL, JWT Authentication</h5>
                                 <div>
                                 Since I've already made a couple of REST APIs in my programming days (Django/Spring Boot), I wanted to expand my knowledge, and see what other type of APIs were out there. This naturally led me to GraphQL, 
@@ -121,7 +130,8 @@ export default class Projects extends Component{
                                  Django also has a very robustUser model with authentication, and I wanted to get some experience usiing it to create an application that uses JWT authentication.
                                 </div>
 
-                                <br/>
+                                </ListGroupItem>
+                                <ListGroupItem>
                                 <h5>Frontend: React, urql, JWT Authentication, Google Maps API</h5>
                                 <div>
                                 For the fronted of the application I chose to use React, since it offers a great way to create a dynamic webpage with multiple parts. I also have experience with it, so it made it easier to work with and
@@ -141,8 +151,9 @@ export default class Projects extends Component{
                                   where there songs are logged (saved using latitude/longitude), and can interact with the map fully. The users can also click on the map to log the coordinates of the click, which are then sent to the
                                    API with the information of the song they are recording, allowing for precise locations.
                                 </div>
-
-                                        </Card.Text>
+                                </ListGroupItem>
+                                </ListGroup>
+                                        {/* </Card.Text> */}
                                     </Card.Body>
                                 </Card>
                             </Tab>
