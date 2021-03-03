@@ -54,7 +54,8 @@ export default class Projects extends Component{
                                         <Card.Header>
                                             <Card.Title>SongSpots: Song Location Tracker</Card.Title>
                                             <Card.Subtitle>Technologies Used: <br/> Python, JavaScript, Django, React.js, GraphQL (Graphene & URQL), Postgres, JWT Authentication, AWS RDS, Google Maps API</Card.Subtitle>
-                                            <Card.Link href="https://github.com/pcassioppi/SongSpots">Github</Card.Link>
+                                            <br/>
+                                            <Card.Link href="https://github.com/pcassioppi/SongSpots"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Card.Link>
                                         </Card.Header>
                                         <Card.Text>
                                 <br />
