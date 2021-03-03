@@ -9,17 +9,18 @@ export default class Projects extends Component{
                 
                 <Card >
                     <Card.Body>
-                        <Card className="text-center" >
-                            <Card.Body>
-                            <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
-                            <div>If you want to see more about a certain project, you can click their corresponding tabs below.</div>
-                            </Card.Body>
-                        </Card>
+                        
                         <br/>
                         <Tabs defaultActiveKey="home" id="controlled-tab-example">
-                            <Tab eventKey="home" title="Main">
+                            <Tab eventKey="home" title="Main"  bg="info" text="white">
+                            <Card className="text-center" >
+                                <Card.Body>
+                                    <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
+                                    <div>If you want to see more about a certain project, you can click their corresponding tabs below.</div>
+                                </Card.Body>
+                            </Card>
                                 <br />
-                                <Card bg="info" text="white">
+                                <Card>
                                     <Card.Body>
                                         <Card.Header>
                                             <Card.Title>SongSpots Song Location Tracker</Card.Title>
