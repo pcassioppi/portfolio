@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container, Jumbotron, Col, Tabs, Tab, Button} from 'react-bootstrap';
+import {Card, Container, Jumbotron, Col, Tabs, Tab, ListGroup, ListGroupItem} from 'react-bootstrap';
 import '../App.css'
 
 export default class Projects extends Component{
@@ -7,12 +7,13 @@ export default class Projects extends Component{
         return (
             <Container>
                 
-                <Card >
+                <Card   bg="info" text="white">
                     <Card.Body>
                         
-                        <br/>
-                        <Tabs defaultActiveKey="home" id="controlled-tab-example">
-                            <Tab eventKey="home" title="Main"  bg="info" text="white">
+                        
+                        <Tabs defaultActiveKey="home" id="controlled-tab-example"   bg="info" text="white">
+                            <Tab eventKey="home" title="Main">
+                            <br/>
                             <Card className="text-center" >
                                 <Card.Body>
                                     <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
@@ -42,9 +43,14 @@ export default class Projects extends Component{
                                         <Card.Header>
                                             <Card.Title>Last.FM Spotify Data Scraper</Card.Title>
                                         </Card.Header>
-                                        <Card.Text>     - Full stack web application using Django REST framework, MongoDB, and React.js</Card.Text>
+                                        <ListGroup className="list-group-flush">
+                                            <ListGroupItem>- Full stack web application using Django REST framework, MongoDB, and React.js</ListGroupItem>
+                                            <ListGroupItem>- Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</ListGroupItem>
+                                            <ListGroupItem>- Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</ListGroupItem>
+                                        </ListGroup>
+                                        {/* <Card.Text>     - Full stack web application using Django REST framework, MongoDB, and React.js</Card.Text>
                                         <Card.Text>     - Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</Card.Text>
-                                        <Card.Text>     - Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</Card.Text>
+                                        <Card.Text>     - Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</Card.Text> */}
                                         <Card.Footer>
                                             <Card.Link href="https://github.com/pcassioppi/TopMusic"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Card.Link>
                                         </Card.Footer>
