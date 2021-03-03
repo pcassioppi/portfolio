@@ -26,12 +26,15 @@ export default class Projects extends Component{
                                         <Card.Header>
                                             <Card.Title>SongSpots Song Location Tracker</Card.Title>
                                         </Card.Header>
-                                        <Card.Text>     - Full stack web application that uses Django, GraphQL, AWS RDS Postgres, React.js, and Google Maps API to allow users to 
-                                            log songs and the locations they associate them with</Card.Text>
-                                        <Card.Text>     - Developed a GraphQL API using Django and JWT user authentication to manipulate and query users’ individual data from Postgres 
-                                            database hosted on AWS RDS</Card.Text>
-                                        <Card.Text>     - Used React.js and URQL to query and manipulate data from the GraphQL API for the frontend, allowing users to see and add 
-                                            data using a map from the Google Maps API, which is displayed in a user friendly React-Bootstrap UI</Card.Text>
+                                        <ListGroup className="list-group-flush">
+                                            <ListGroupItem> Full stack web application that uses Django, GraphQL, AWS RDS Postgres, React.js, and Google Maps API to allow users to 
+                                            log songs and the locations they associate them with</ListGroupItem>
+                                            <ListGroupItem> Developed a GraphQL API using Django and JWT user authentication to manipulate and query users’ individual data from Postgres 
+                                            database hosted on AWS RDS</ListGroupItem>
+                                            <ListGroupItem> Used React.js and URQL to query and manipulate data from the GraphQL API for the frontend, allowing users to see and add 
+                                            data using a map from the Google Maps API, which is displayed in a user friendly React-Bootstrap UI</ListGroupItem>
+                                        </ListGroup>
+                                        
                                         <Card.Footer>
                                             <Card.Link href="https://github.com/pcassioppi/SongSpots"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Card.Link>
                                         </Card.Footer>
@@ -44,9 +47,9 @@ export default class Projects extends Component{
                                             <Card.Title>Last.FM Spotify Data Scraper</Card.Title>
                                         </Card.Header>
                                         <ListGroup className="list-group-flush">
-                                            <ListGroupItem>- Full stack web application using Django REST framework, MongoDB, and React.js</ListGroupItem>
-                                            <ListGroupItem>- Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</ListGroupItem>
-                                            <ListGroupItem>- Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</ListGroupItem>
+                                            <ListGroupItem> Full stack web application using Django REST framework, MongoDB, and React.js</ListGroupItem>
+                                            <ListGroupItem> Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</ListGroupItem>
+                                            <ListGroupItem> Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</ListGroupItem>
                                         </ListGroup>
                                         {/* <Card.Text>     - Full stack web application using Django REST framework, MongoDB, and React.js</Card.Text>
                                         <Card.Text>     - Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</Card.Text>
