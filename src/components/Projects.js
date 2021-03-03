@@ -6,12 +6,15 @@ export default class Projects extends Component{
     render(){
         return (
             <Container>
-                <Jumbotron className="text-center">
-                        <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
-                        <div>If you want to see more about a certain project, you can click their corresponding tabs below.</div>
-                </Jumbotron>
+                
                 <Card >
                     <Card.Body>
+                        <Card className="text-center">
+                            <Card.Body>
+                            <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
+                            <div>If you want to see more about a certain project, you can click their corresponding tabs below.</div>
+                            </Card.Body>
+                        </Card>
                         <Tabs defaultActiveKey="home" id="controlled-tab-example">
                             <Tab eventKey="home" title="Main">
                                 <br />
