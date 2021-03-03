@@ -21,19 +21,19 @@ export default class HomePage extends Component{
                         <Card border="primary">
                             <Card.Header> Menu </Card.Header>
                             <Card.Body>
-                        <Nav variant="pills" className="flex-column">
-                            <Nav.Item>
-                            <Nav.Link eventKey="first">About Me</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                            <Nav.Link eventKey="second">Projects</Nav.Link>
-                            </Nav.Item>
+                                <Nav variant="pills" className="flex-column">
+                                    <Nav.Item>
+                                        <Nav.Link eventKey="first">About Me</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link eventKey="second">Projects</Nav.Link>
+                                    </Nav.Item>
                             
-                            <Nav.Item>
-                            <Nav.Link eventKey="third">Full Resume</Nav.Link>
-                            </Nav.Item>
-                        </Nav>
-                        </Card.Body>
+                                    <Nav.Item>
+                                        <Nav.Link eventKey="third">Full Resume</Nav.Link>
+                                    </Nav.Item>
+                                </Nav>
+                            </Card.Body>
                         </Card>
                         </Col>
                         <Col sm={9}>

@@ -9,16 +9,17 @@ export default class Projects extends Component{
                 
                 <Card >
                     <Card.Body>
-                        <Card className="text-center">
+                        <Card className="text-center" >
                             <Card.Body>
                             <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
                             <div>If you want to see more about a certain project, you can click their corresponding tabs below.</div>
                             </Card.Body>
                         </Card>
+                        <br/>
                         <Tabs defaultActiveKey="home" id="controlled-tab-example">
                             <Tab eventKey="home" title="Main">
                                 <br />
-                                <Card>
+                                <Card bg="info" text="white">
                                     <Card.Body>
                                         <Card.Header>
                                             <Card.Title>SongSpots Song Location Tracker</Card.Title>
@@ -30,7 +31,7 @@ export default class Projects extends Component{
                                         <Card.Text>     - Used React.js and URQL to query and manipulate data from the GraphQL API for the frontend, allowing users to see and add 
                                             data using a map from the Google Maps API, which is displayed in a user friendly React-Bootstrap UI</Card.Text>
                                         <Card.Footer>
-                                            <Button href="https://github.com/pcassioppi/SongSpots" variant="light"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Button>
+                                            <Card.Link href="https://github.com/pcassioppi/SongSpots"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Card.Link>
                                         </Card.Footer>
                                     </Card.Body>
                                 </Card>
@@ -44,7 +45,7 @@ export default class Projects extends Component{
                                         <Card.Text>     - Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</Card.Text>
                                         <Card.Text>     - Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</Card.Text>
                                         <Card.Footer>
-                                            <Button href="https://github.com/pcassioppi/TopMusic" variant="light"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Button>
+                                            <Card.Link href="https://github.com/pcassioppi/TopMusic"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Card.Link>
                                         </Card.Footer>
                                     </Card.Body>
                                 </Card>
