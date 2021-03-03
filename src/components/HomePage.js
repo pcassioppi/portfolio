@@ -15,7 +15,7 @@ export default class HomePage extends Component{
                         <div>~please enjoy your stay~</div>        
                 </Jumbotron> */}
                 <Card.Body>
-                <Tab.Container className="tabClass" defaultActiveKey="first">
+                <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
                         <Card border="primary">
