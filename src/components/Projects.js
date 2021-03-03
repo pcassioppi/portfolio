@@ -7,7 +7,7 @@ export default class Projects extends Component{
         return (
             <Container>
                 
-                <Card   bg="info" text="white">
+                <Card >
                     <Card.Body>
                         
                         
