@@ -22,7 +22,9 @@ export default class HomePage extends Component{
                             <Card bg="dark" text="white" className="text-center">
                                 <Card.Header>
                                     <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
-                                    <h3>Peter Cassioppi</h3>
+                                    <Card.Text>
+                                        <h3>Peter Cassioppi</h3>
+                                    </Card.Text>
                                 </Card.Header>
                                 <Card.Body className="text-center">
                                     
@@ -36,11 +38,11 @@ export default class HomePage extends Component{
                                     <Row >
                                         <Col>
                                             {/* <Button variant="primary" href="https://www.linkedin.com/in/pcassioppi/" block>LinkedIn</Button>{' '} */}
-                                            <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><Image src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" fluid/></Card.Link>
+                                            <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><Image src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" rounded fluid/></Card.Link>
                                         </Col>
                                         <Col>
-                                            {/* <Button variant="secondary" href="https://github.com/pcassioppi/" block>Github</Button> */}
-                                            <Card.Link href="https://www.github.com/pcassioppi/"><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" fluid/></Card.Link>
+                                            <Button variant="secondary" href="https://github.com/pcassioppi/" block><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" rounded fluid/></Button>
+                                            {/* <Card.Link href="https://www.github.com/pcassioppi/"><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" rounded fluid/></Card.Link> */}
                                         </Col>
                                     </Row>
                                     <Row>
