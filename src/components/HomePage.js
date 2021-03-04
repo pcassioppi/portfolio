@@ -42,8 +42,8 @@ export default class HomePage extends Component{
                                             <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><Image src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" rounded fluid/></Card.Link>
                                         </Col>
                                         <Col>
-                                            <Button variant="secondary" href="https://github.com/pcassioppi/" block><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" rounded fluid/></Button>
-                                            {/* <Card.Link href="https://www.github.com/pcassioppi/"><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" rounded fluid/></Card.Link> */}
+                                            {/* <Button variant="secondary" href="https://github.com/pcassioppi/" block><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" rounded fluid/></Button> */}
+                                            <Card.Link href="https://www.github.com/pcassioppi/"><Image src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" roundedCircle fluid/></Card.Link>
                                         </Col>
                                     </Row>
                                     <Row>
