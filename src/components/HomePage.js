@@ -19,9 +19,10 @@ export default class HomePage extends Component{
                     <Row>
                         <Col sm={3}>
                         <Card bg="dark">
-                            <Card bg="dark">
+                            <Card bg="dark" text="white" className="text-center">
                                 <Card.Header>
                                     <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
+                                    <h5>Peter Cassioppi</h5>
                                 </Card.Header>
                                 <Card.Body className="text-center">
                                     
@@ -46,7 +47,7 @@ export default class HomePage extends Component{
                                         <Card.Text>                                          
                                         </Card.Text>
                                         
-                                        <Button variant="info" block disabled>Email: pjc@iastate.edu</Button>
+                                        <Button variant="info" block>Email: pjc@iastate.edu</Button>
                                         </Col>
                                     </Row>
                                     {/* </ButtonGroup> */}
