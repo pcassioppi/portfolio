@@ -36,11 +36,11 @@ export default class HomePage extends Component{
                                     <Row >
                                         <Col>
                                             {/* <Button variant="primary" href="https://www.linkedin.com/in/pcassioppi/" block>LinkedIn</Button>{' '} */}
-                                            <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><img src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" width="60" height="15" alt=''/></Card.Link>
+                                            <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><Image src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" fluid/></Card.Link>
                                         </Col>
                                         <Col>
                                             {/* <Button variant="secondary" href="https://github.com/pcassioppi/" block>Github</Button> */}
-                                            <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><Image src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" fluid/></Card.Link>
+                                            <Card.Link href="https://www.github.com/pcassioppi/"><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" fluid/></Card.Link>
                                         </Col>
                                     </Row>
                                     <Row>
@@ -60,6 +60,8 @@ export default class HomePage extends Component{
                             <Card border="primary" bg="secondary" text="white">
                                 <Card.Header> Menu </Card.Header>
                                 <Card.Body>
+                                    <Card>
+                                        <Card.Body>
                                     <Nav variant="pills" className="flex-column">
                                         <Nav.Item>
                                             <Nav.Link eventKey="first">About Me</Nav.Link>
@@ -72,6 +74,8 @@ export default class HomePage extends Component{
                                             <Nav.Link eventKey="third">Full Resume</Nav.Link>
                                         </Nav.Item>
                                     </Nav>
+                                    </Card.Body>
+                                    </Card>
                                 </Card.Body>
                             </Card>
                         </Card>
