@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container, Jumbotron, Col, Row, Tab, Nav, Image, Button, ButtonGroup, Badge} from 'react-bootstrap';
+import {Card, Container, Jumbotron, Col, Row, Tab, Nav, Image, Button, ButtonGroup} from 'react-bootstrap';
 import '../App.css'
 import Resume from './Resume'
 import Projects from './Projects'
@@ -51,9 +51,8 @@ export default class HomePage extends Component{
                                         <Col>
                                         <Card.Text>                                          
                                         </Card.Text>
-                                        <Badge variant="info" >Email: pjc@iastate.edu</Badge>
-
-                                        {/* <Button variant="info" block>Email: pjc@iastate.edu</Button> */}
+                                        
+                                        <Button variant="info" block>Email: pjc@iastate.edu</Button>
                                         </Col>
                                     </Row>
                                     {/* </ButtonGroup> */}
