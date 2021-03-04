@@ -273,7 +273,7 @@ export default class Projects extends Component{
                                 <div>
                                 For the front end of the application I decided to use React because of its large usage in industry, and its ability to create dynamic web applications. Axios was the library used to make requests
                                  to the REST API. The front end allows users to POST their username, and GET their last.fm and Spotify track data. React-Bootstrap was used for many of the elements becauyse I think it looks nice
-                                  :^) , and it is commonly used. This gave me good experience in what it is like to design a website so it is intuitive and looks good (and works lol).
+                                  :^) , and it is commonly used. This gave me good experience in what it is like to design a website so it is intuitive and looks good (and works lol, my focus for this project was function over form).
                                 </div>
 
                                 </ListGroupItem>
@@ -287,7 +287,39 @@ export default class Projects extends Component{
                                             </Card.Text>
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/form.png" fluid/>
-                                </Card>
+                                    </Card>
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                Track Page (at the top right the username is saved after it is entered):
+                                            </Card.Text>
+                                        </Card.Body>
+                                    <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/trackPage.png" fluid/>
+                                    </Card>
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                Track Spotify Data Page:
+                                            </Card.Text>
+                                        </Card.Body>
+                                    <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/SpotDataPage.png" fluid/>
+                                    </Card>
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                Artist Page:
+                                            </Card.Text>
+                                        </Card.Body>
+                                    <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/artistPage.png" fluid/>
+                                    </Card>
+                                    <Card>
+                                        <Card.Body>
+                                            <Card.Text>
+                                                Album Page:
+                                            </Card.Text>
+                                        </Card.Body>
+                                    <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/albumPage.png" fluid/>
+                                    </Card>
 
                                 </ListGroupItem>
                                 </ListGroup>
