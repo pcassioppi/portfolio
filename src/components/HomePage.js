@@ -41,8 +41,10 @@ export default class HomePage extends Component{
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <br/>
+                                        
+                                        <Col>
                                         <Button variant="info" block disabled>Email: pjc@iastate.edu</Button>
+                                        </Col>
                                     </Row>
                                     {/* </ButtonGroup> */}
 
