@@ -8,7 +8,7 @@ export default class AboutMe extends Component{
             <Container bg="secondary">
                 <Jumbotron className="text-center">
                         <h1>About Me</h1>
-                        <div>use picture on Curtiss</div>
+                        <div>use picture at Curtiss</div>
                 </Jumbotron>
             
             </Container>
