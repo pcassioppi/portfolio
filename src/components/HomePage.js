@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container, Jumbotron, Col, Row, Tab, Nav, Image} from 'react-bootstrap';
+import {Card, Container, Jumbotron, Col, Row, Tab, Nav, Image, Button, ButtonGroup} from 'react-bootstrap';
 import '../App.css'
 import Resume from './Resume'
 import Projects from './Projects'
@@ -21,8 +21,19 @@ export default class HomePage extends Component{
                         <Card>
                             <Card>
                                 <Card.Body>
-                                    Testtest
+                                    
                                     <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
+                                    {/* <Row>
+                                        <Col>
+
+                                        </Col>
+                                    </Row> */}
+                                    {/* <ButtonGroup aria-label="Basic example"> */}
+                                        <Button variant="primary" href="linkedin.com/in/pcassioppi/">LinkedIn</Button>{' '}
+                                        <Button variant="secondary" href="github.com/pcassioppi">Github</Button>{' '}
+                                        <Button variant="info" disablede>Email: pjc@iastate.edu</Button>
+                                    {/* </ButtonGroup> */}
+
                                 </Card.Body>
                             </Card>
                         
