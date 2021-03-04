@@ -34,6 +34,7 @@ export default class HomePage extends Component{
                                     {/* <ButtonGroup aria-label="Basic example"> */}
                                         <Button variant="primary" href="linkedin.com/in/pcassioppi/">LinkedIn</Button>{' '}
                                         <Button variant="secondary" href="github.com/pcassioppi">Github</Button>{' '}
+                                        <br/>
                                         <Button variant="info" disabled>Email: pjc@iastate.edu</Button>
                                     {/* </ButtonGroup> */}
 
