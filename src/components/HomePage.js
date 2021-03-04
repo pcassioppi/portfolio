@@ -43,6 +43,10 @@ export default class HomePage extends Component{
                                     <Row>
                                         
                                         <Col>
+                                        <Card.Text>
+                                            <br/>
+                                        </Card.Text>
+                                        
                                         <Button variant="info" block disabled>Email: pjc@iastate.edu</Button>
                                         </Col>
                                     </Row>
