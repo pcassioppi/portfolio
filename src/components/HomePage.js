@@ -36,6 +36,7 @@ export default class HomePage extends Component{
                                         </Col>
                                     </Row> */}
                                     {/* <ButtonGroup aria-label="Basic example"> */}
+                                    <Card bg="secondary">
                                     <Row >
                                         <Col>
                                             {/* <Button variant="primary" href="https://www.linkedin.com/in/pcassioppi/" block>LinkedIn</Button>{' '} */}
@@ -56,7 +57,7 @@ export default class HomePage extends Component{
                                         </Col>
                                     </Row>
                                     {/* </ButtonGroup> */}
-
+                                    </Card>
                                 </Card.Body>
                             </Card>
                         
