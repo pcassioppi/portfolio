@@ -17,7 +17,7 @@ export default class Projects extends Component{
                             <Card className="text-center" >
                                 <Card.Body>
                                     <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
-                                    <div>If you want to see more about a certain project, you can click their corresponding tabs below.</div>
+                                    <div>If you want to see more about a certain project, you can click its tab above.</div>
                                 </Card.Body>
                             </Card>
                                 <br />
