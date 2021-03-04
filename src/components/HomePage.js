@@ -60,7 +60,7 @@ export default class HomePage extends Component{
                             <Card border="primary" bg="secondary" text="white">
                                 <Card.Header> Menu </Card.Header>
                                 <Card.Body>
-                                    <Card>
+                                    <Card bg="light">
                                         <Card.Body>
                                     <Nav variant="pills" className="flex-column">
                                         <Nav.Item>
