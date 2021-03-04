@@ -14,7 +14,7 @@ export default class Projects extends Component{
                         <Tabs defaultActiveKey="home" id="controlled-tab-example"   bg="info" text="white">
                             <Tab eventKey="home" title="Main">
                             <br/>
-                            <Card className="text-center" >
+                            <Card >
                                 <Card.Body>
                                     <div>Here are some brief summaries of a couple of personal projects I've done, and some of the technologies I've used.</div>
                                     <div>If you want to see more about a certain project, you can click its tab above.</div>
@@ -67,7 +67,7 @@ export default class Projects extends Component{
                                     <Card.Body>
                                         <Card.Header>
                                             <Card.Title>SongSpots: Song Location Tracker</Card.Title>
-                                            <Card.Subtitle>Technologies Used: <br/> Python, JavaScript, Django, React.js, GraphQL (Graphene & URQL), Postgres, JWT Authentication, AWS RDS, Google Maps API</Card.Subtitle>
+                                            <Card.Subtitle>Technologies Used: <br/> Python, JavaScript, Django, React.js, GraphQL (Graphene & URQL), Postgres, JWT Authentication, AWS RDS, React Google Maps</Card.Subtitle>
                                             <br/>
                                             <Card.Link href="https://github.com/pcassioppi/SongSpots"><img src="https://p.kindpng.com/picc/s/128-1280187_github-logo-png-github-transparent-png.png" width="60" height="35" alt=''/></Card.Link>
                                         </Card.Header>

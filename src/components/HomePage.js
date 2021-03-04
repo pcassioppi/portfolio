@@ -29,9 +29,9 @@ export default class HomePage extends Component{
                                         </Col>
                                     </Row> */}
                                     {/* <ButtonGroup aria-label="Basic example"> */}
-                                        <Button variant="primary" href="linkedin.com/in/pcassioppi/">LinkedIn</Button>{' '}
-                                        <Button variant="secondary" href="github.com/pcassioppi">Github</Button>{' '}
-                                        <Button variant="info" disablede>Email: pjc@iastate.edu</Button>
+                                        <Button variant="primary" href="linkedin.com/in/pcassioppi/" size="sm">LinkedIn</Button>{' '}
+                                        <Button variant="secondary" href="github.com/pcassioppi" size="sm">Github</Button>{' '}
+                                        <Button variant="info" disabled size="sm">Email: pjc@iastate.edu</Button>
                                     {/* </ButtonGroup> */}
 
                                 </Card.Body>
