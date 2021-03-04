@@ -43,7 +43,7 @@ export default class HomePage extends Component{
                                         </Col>
                                         <Col>
                                             {/* <Button variant="secondary" href="https://github.com/pcassioppi/" block><Image src="https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png" rounded fluid/></Button> */}
-                                            <Card.Link href="https://www.github.com/pcassioppi/"><Image src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" roundedCircle fluid/></Card.Link>
+                                            <Card.Link href="https://www.github.com/pcassioppi/"><Image src="https://github.blog/wp-content/uploads/2013/04/fffdd290-a5e2-11e2-8099-e1b5d8286da3.jpg" rounded fluid/></Card.Link>
                                         </Col>
                                     </Row>
                                     <Row>
