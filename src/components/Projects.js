@@ -153,6 +153,11 @@ export default class Projects extends Component{
                                    API with the information of the song they are recording, allowing for precise locations.
                                 </div>
                                 </ListGroupItem>
+                                <ListGroupItem>
+                                    <h5>Images</h5>
+                                    <h6>Coming soon....</h6>
+
+                                </ListGroupItem>
                                 </ListGroup>
                                         {/* </Card.Text> */}
                                     </Card.Body>
@@ -283,11 +288,12 @@ export default class Projects extends Component{
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
-                                                Home/Form Page
+                                                Home/Form Page:
                                             </Card.Text>
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/form.png" fluid/>
                                     </Card>
+                                    <br/>
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
@@ -296,6 +302,7 @@ export default class Projects extends Component{
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/trackPage.png" fluid/>
                                     </Card>
+                                    <br/>
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
@@ -304,6 +311,7 @@ export default class Projects extends Component{
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/SpotDataPage.png" fluid/>
                                     </Card>
+                                    <br/>
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
@@ -312,6 +320,7 @@ export default class Projects extends Component{
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/artistPage.png" fluid/>
                                     </Card>
+                                    <br/>
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
