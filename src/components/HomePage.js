@@ -35,7 +35,8 @@ export default class HomePage extends Component{
                                     {/* <ButtonGroup aria-label="Basic example"> */}
                                     <Row >
                                         <Col>
-                                            <Button variant="primary" href="https://www.linkedin.com/in/pcassioppi/" block>LinkedIn</Button>{' '}
+                                            {/* <Button variant="primary" href="https://www.linkedin.com/in/pcassioppi/" block>LinkedIn</Button>{' '} */}
+                                            <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><img src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" width="60" height="15" alt=''/></Card.Link>
                                         </Col>
                                         <Col>
                                             <Button variant="secondary" href="https://github.com/pcassioppi/" block>Github</Button>
