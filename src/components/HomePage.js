@@ -18,8 +18,8 @@ export default class HomePage extends Component{
                 <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
-                        <Card>
-                            <Card bg="secondary">
+                        <Card bg="dark">
+                            <Card bg="dark">
                                 <Card.Header>
                                     <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
                                 </Card.Header>
