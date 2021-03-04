@@ -32,10 +32,13 @@ export default class HomePage extends Component{
                                         </Col>
                                     </Row> */}
                                     {/* <ButtonGroup aria-label="Basic example"> */}
+                                    <Row>
                                         <Button variant="primary"><a href="linkedin.com/in/pcassioppi/">LinkedIn</a></Button>{' '}
                                         <Button variant="secondary" href="github.com/pcassioppi">Github</Button>{' '}
-                                        <br/>
+                                    </Row>
+                                    <Row>
                                         <Button variant="info" disabled>Email: pjc@iastate.edu</Button>
+                                    </Row>
                                     {/* </ButtonGroup> */}
 
                                 </Card.Body>
