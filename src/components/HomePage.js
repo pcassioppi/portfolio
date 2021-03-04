@@ -22,7 +22,7 @@ export default class HomePage extends Component{
                             <Card bg="dark" text="white" className="text-center">
                                 <Card.Header>
                                     <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
-                                    <h5>Peter Cassioppi</h5>
+                                    <h3>Peter Cassioppi</h3>
                                 </Card.Header>
                                 <Card.Body className="text-center">
                                     
@@ -55,7 +55,7 @@ export default class HomePage extends Component{
                                 </Card.Body>
                             </Card>
                         
-                            <Card border="primary">
+                            <Card border="primary" bg="secondary" text="white">
                                 <Card.Header> Menu </Card.Header>
                                 <Card.Body>
                                     <Nav variant="pills" className="flex-column">
