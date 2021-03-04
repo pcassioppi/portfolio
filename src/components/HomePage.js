@@ -39,7 +39,8 @@ export default class HomePage extends Component{
                                             <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><img src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" width="60" height="15" alt=''/></Card.Link>
                                         </Col>
                                         <Col>
-                                            <Button variant="secondary" href="https://github.com/pcassioppi/" block>Github</Button>
+                                            {/* <Button variant="secondary" href="https://github.com/pcassioppi/" block>Github</Button> */}
+                                            <Card.Link href="https://www.linkedin.com/in/pcassioppi/"><Image src="https://golflifenavigators.com/wp-content/uploads/2018/09/linkedin-logo.png" fluid/></Card.Link>
                                         </Col>
                                     </Row>
                                     <Row>
