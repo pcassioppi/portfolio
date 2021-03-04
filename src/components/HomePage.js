@@ -23,6 +23,7 @@ export default class HomePage extends Component{
                                 <Card.Header>
                                     <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
                                     <Card.Text>
+                                        <br/>
                                         <h3>Peter Cassioppi</h3>
                                     </Card.Text>
                                 </Card.Header>
