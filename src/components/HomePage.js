@@ -9,31 +9,37 @@ export default class HomePage extends Component{
     render(){
         return (
             <Container className="p-4">
-                <Card bg="dark">
+                {/* <Card bg="dark"> */}
                 {/* <Jumbotron className="text-center">
                         <h1>Welcome to My Website!</h1>
                         <div>~please enjoy your stay~</div>        
                 </Jumbotron> */}
-                <Card.Body>
+                {/* <Card.Body> */}
                 <Tab.Container defaultActiveKey="first">
                     <Row>
                         <Col sm={3}>
-                        <Card border="primary">
-                            <Card.Header> Menu </Card.Header>
-                            <Card.Body>
-                                <Nav variant="pills" className="flex-column">
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="first">About Me</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="second">Projects</Nav.Link>
-                                    </Nav.Item>
-                            
-                                    <Nav.Item>
-                                        <Nav.Link eventKey="third">Full Resume</Nav.Link>
-                                    </Nav.Item>
-                                </Nav>
-                            </Card.Body>
+                        <Card>
+                            <Card>
+                        
+                            </Card>
+                        
+                            <Card border="primary">
+                                <Card.Header> Menu </Card.Header>
+                                <Card.Body>
+                                    <Nav variant="pills" className="flex-column">
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="first">About Me</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="second">Projects</Nav.Link>
+                                        </Nav.Item>
+                                
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="third">Full Resume</Nav.Link>
+                                        </Nav.Item>
+                                    </Nav>
+                                </Card.Body>
+                            </Card>
                         </Card>
                         </Col>
                         <Col sm={9}>
@@ -56,8 +62,8 @@ export default class HomePage extends Component{
                         
                     </Row>
                 </Tab.Container>
-                </Card.Body>
-                </Card>
+                {/* </Card.Body> */}
+                {/* </Card> */}
             </Container>
         );
     

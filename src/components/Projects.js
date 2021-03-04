@@ -145,6 +145,7 @@ export default class Projects extends Component{
                                 This project required the use of JSOn Web Tokens for authentication, since I wanted to be able to show users their specific data. When the data requests were sent, the users token was sent as a header,
                                  and the API returned only that users data, or would return the sent data with a relation to mark the user that submitted it.
                                 </div>
+                                <br/>
                                 <div>
                                 A key part of this project was the ability to pinpoint on a map where the user had listened to the song they are logging. To achieve this, I used the Google Maps Javascript API, which allows for many
                                  (awesome) customizations by the user. The power to have a satellite map in a project is good enough, but the ability to work with the map as a developer really impressed me. The users can see markers
