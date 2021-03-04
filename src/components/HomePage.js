@@ -20,18 +20,21 @@ export default class HomePage extends Component{
                         <Col sm={3}>
                         <Card>
                             <Card>
-                                <Card.Body>
-                                    
+                                <Card.Header>
                                     <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
+                                </Card.Header>
+                                <Card.Body className="text-center">
+                                    
+                                   
                                     {/* <Row>
                                         <Col>
 
                                         </Col>
                                     </Row> */}
                                     {/* <ButtonGroup aria-label="Basic example"> */}
-                                        <Button variant="primary" href="linkedin.com/in/pcassioppi/" size="sm">LinkedIn</Button>{' '}
-                                        <Button variant="secondary" href="github.com/pcassioppi" size="sm">Github</Button>{' '}
-                                        <Button variant="info" disabled size="sm">Email: pjc@iastate.edu</Button>
+                                        <Button variant="primary" href="linkedin.com/in/pcassioppi/">LinkedIn</Button>{' '}
+                                        <Button variant="secondary" href="github.com/pcassioppi">Github</Button>{' '}
+                                        <Button variant="info" disabled>Email: pjc@iastate.edu</Button>
                                     {/* </ButtonGroup> */}
 
                                 </Card.Body>
