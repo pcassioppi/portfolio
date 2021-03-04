@@ -47,7 +47,8 @@ export default class Projects extends Component{
                                             <Card.Title>Last.FM Spotify Data Scraper</Card.Title>
                                         </Card.Header>
                                         <ListGroup className="list-group-flush">
-                                            <ListGroupItem> Full stack web application using Django REST framework, MongoDB, and React.js</ListGroupItem>
+                                            <ListGroupItem> Full stack web application using Django REST framework, MongoDB, and React.js. Users can enter their Last.FM username, and they will get their listening stats, as well
+                                                 as Spotify track data for their top 50 songs.</ListGroupItem>
                                             <ListGroupItem> Utilized BeautifulSoup python library and MongoDB change streams to dynamically crawl users' Last.FM data and retrieve track analysis data from Spotify’s API</ListGroupItem>
                                             <ListGroupItem> Implemented Bootstrap framework to display crawled data in an intuitive UI when user made request to the Django RESTFUL API from the React.js frontend</ListGroupItem>
                                         </ListGroup>
@@ -288,7 +289,7 @@ export default class Projects extends Component{
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
-                                                Home/Form Page:
+                                                Home/Form Page
                                             </Card.Text>
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/form.png" fluid/>
@@ -297,7 +298,7 @@ export default class Projects extends Component{
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
-                                                Track Page (at the top right the username is saved after it is entered):
+                                                Track Page (at the top right the username is saved after it is entered)
                                             </Card.Text>
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/trackPage.png" fluid/>
@@ -306,7 +307,7 @@ export default class Projects extends Component{
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
-                                                Track Spotify Data Page:
+                                                Track Spotify Data Page
                                             </Card.Text>
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/SpotDataPage.png" fluid/>
@@ -315,7 +316,7 @@ export default class Projects extends Component{
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
-                                                Artist Page:
+                                                Artist Page
                                             </Card.Text>
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/artistPage.png" fluid/>
@@ -324,7 +325,7 @@ export default class Projects extends Component{
                                     <Card>
                                         <Card.Body>
                                             <Card.Text>
-                                                Album Page:
+                                                Album Page
                                             </Card.Text>
                                         </Card.Body>
                                     <Card.Img variant="bottom" src="https://raw.githubusercontent.com/pcassioppi/TopMusic/master/Screenshots/albumPage.png" fluid/>
