@@ -21,7 +21,7 @@ export default class HomePage extends Component{
                         <Card bg="dark">
                             <Card bg="dark" text="white" className="text-center">
                                 <Card.Header>
-                                    <Image src="https://raw.githubusercontent.com/pcassioppi/pages_files/gh-pages/resume/IMG_2873%20-%20Copy.jpg" roundedCircle fluid/>
+                                    <Image src="https://avatars.githubusercontent.com/u/47647586?s=460&u=77191a3f8ed3628f3074e1f373ea47a40aa6b9f9&v=4" roundedCircle fluid/>
                                     <Card.Text>
                                         <br/>
                                         <h3>Peter Cassioppi</h3>
