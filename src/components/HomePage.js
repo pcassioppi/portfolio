@@ -52,7 +52,7 @@ export default class HomePage extends Component{
                                         <Card.Text>                                          
                                         </Card.Text>
                                         
-                                        <Button variant="info" block>Email: pjc@iastate.edu</Button>
+                                        <Button variant="info" block disabled>Email: pjc@iastate.edu</Button>
                                         </Col>
                                     </Row>
                                     {/* </ButtonGroup> */}
